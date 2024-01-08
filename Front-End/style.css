@@ -1,0 +1,62 @@
+body {
+	background: linear-gradient(-45deg, purple, indigo, cyan, magenta);
+	background-size: 400% 400%;
+	animation: msit 18s ease-in infinite;
+	height: 100vh;
+}
+
+@keyframes msit {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.xyz{
+    border-radius: 28px 0 28px;
+}
+
+.head1{
+    font-family: Sofia;
+    font-size: 50px;
+}
+#p1{
+    color: ghostwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+tr,td{
+    padding: 6px;
+}
+input[type=text],input[type=email],input[type=password],input[type=datetime]{
+    height: 45px;
+    width: 250px;
+    border-color: transparent;
+    border-radius: 9px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+#s1{
+    height: 40px;
+    border-radius: 8px;
+    width: 100px;
+    border-color: transparent;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+#s1:hover{
+    background-color: green;
+    cursor: pointer;
+}
