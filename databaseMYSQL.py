@@ -39,6 +39,7 @@
 
 # mycursor = mydb.cursor()
 
+<<<<<<< HEAD
 # mycursor.execute("CREATE TABLE subjects (digital_electronics VARCHAR(255),soft_engg VARCHAR(255),cyber_sec VARCHAR(255), c_data_structure VARCHAR(255))")
 
 
@@ -52,3 +53,20 @@ mydb = mysql.connector.connect(
 )
 mycursor = mydb.cursor()
 mycursor.execute("DROP TABLE students")
+=======
+# mycursor.execute("CREATE DATABASE python")
+
+
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  password="yourpassword",
+  database="mydatabase"
+)
+
+mycursor = mydb.cursor()
+
+mycursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))")
+>>>>>>> ecd2289b22a120cbb116b281b68b3fcf5fab9428
